@@ -5,7 +5,7 @@ use GuzzleHttp\Client;
 
 $client = new Client();
 
-$respon = $client->request('GET', 'https://momomimo1602webservice.000webhostapp.com/server-api/tampil_by_id.php', [
+$respon = $client->request('GET', 'https://momomimo****************.000webhostapp.com/server-api/tampil_by_id.php', [
     'query' => [
         'id' => $id
     ]

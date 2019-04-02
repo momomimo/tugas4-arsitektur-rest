@@ -12,7 +12,7 @@ $nama_pp = $_POST['nama_pp'];
 $alamat_pp = $_POST['alamat_pp'];
 $switching = $_POST['switching'];
 
-$promise = $client->request('PUT', 'https://momomimo1602webservice.000webhostapp.com/server-api/update.php', [
+$promise = $client->request('PUT', 'https://momomimo****************.000webhostapp.com/server-api/update.php', [
     'body' => json_encode([
         'id' => $id,
         'jenis' => $jenis,

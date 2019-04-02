@@ -12,7 +12,7 @@ use function GuzzleHttp\json_encode;
 
 $client = new Client(['headers' => ['Content-Type' => 'application/json']]);
 
-$respon = $client->request('POST', 'https://momomimo1602webservice.000webhostapp.com/server-api/input.php', [
+$respon = $client->request('POST', 'https://momomimo****************.000webhostapp.com/server-api/input.php', [
     'body' => json_encode([
         'id' => $id,
         'jenis' => $jenis,

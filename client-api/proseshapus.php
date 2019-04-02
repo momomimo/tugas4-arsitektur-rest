@@ -7,7 +7,7 @@ use function GuzzleHttp\json_encode;
 
 $client = new Client(['headers' => ['Content-Type' => 'application/json']]);
 
-$promise = $client->request('DELETE', 'https://momomimo1602webservice.000webhostapp.com/server-api/hapus.php', [
+$promise = $client->request('DELETE', 'https://momomimo****************.000webhostapp.com/server-api/hapus.php', [
     'body' => json_encode([
         'id' => $id
     ])

@@ -5,7 +5,7 @@ use GuzzleHttp\Client;
 
 $client = new Client();
 
-$respon = $client->request('GET', 'https://momomimo1602webservice.000webhostapp.com/server-api/tampil.php', []);
+$respon = $client->request('GET', 'https://momomimo****************.000webhostapp.com/server-api/tampil.php', []);
 
 $result = json_decode($respon->getBody()->getContents(), true);
 
